@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventario</title>
+  <style>
+    body { font-family: Arial; }
+    .card {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 10px;
+      width: 250px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .card.out {
+      background-color: #f8d7da;
+      border-color: #dc3545;
+    }
+    .card.available {
+      background-color: #d4edda;
+      border-color: #28a745;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Inventario de Productos</h1>
+  <div id="inventory-container"></div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
